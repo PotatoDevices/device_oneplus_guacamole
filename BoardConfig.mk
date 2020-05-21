@@ -11,12 +11,6 @@ DEVICE_PATH := device/oneplus/guacamole
 # Assert
 TARGET_OTA_ASSERT_DEVICE := OnePlus7Pro
 
-# Display
-TARGET_SCREEN_DENSITY := 560
-
-# Kernel
-TARGET_KERNEL_CONFIG := vendor/sm8150-perf_defconfig
-
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
 BOARD_CACHEIMAGE_PARTITION_SIZE := 268435456
